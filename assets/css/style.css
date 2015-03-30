@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    letter-spacing: 1px;
+	line-height: 24px;
+	color: gray;
+
+
+}
+
+#background {
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#header {
+	position: absolute;
+	background-color: #fff;
+	color: gray;
+	width: 100%;
+	top: 0px;
+	height: 108px;
+}
+
+#header-img{
+	padding-left: 12px;
+	width: 108px;
+	height: 108px;
+}
+
+#header-big {
+	font-size: 36px;
+}
+
+#header-small {
+	padding-left: 18px;
+	padding-top: 12px;
+	font-size: 24px;
+}
+
+#navbar {
+	position: relative;
+	bottom: 18px;
+	left: 144px;
+}
+
+#header-words {
+	position: relative;
+	bottom: 18px;
+}
+
+.wrapper {
+	display: inline-block;
+}
+
+.navbar-item {
+	color: gray;
+	display: inline-block;
+	margin-left: 36px;
+	font-size: 18px;
+	padding: 12px;
+	border-radius: 6px;
+}
+
+#cal {
+	position: relative;
+	top:120px;
+	left:360px;
+
+}
+
+#member {
+
+	position: relative;
+	top: 240px;
+	width: 30%;
+	/*left: 35%;*/
+	margin: auto;
+	background-color: #fff;
+	color: gray;
+	padding: 18px;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+/*#mission {
+	background-color: #fff;
+	color: gray;
+	position: relative;
+	top: 240px;
+	width: 25%;
+	border-radius: 15px;
+	padding: 18px;
+	font-size: 18px;
+	left: 57%;
+}*/
+
+.summary {
+	position: relative;
+	top: 180px;
+	margin: auto;
+	width: 50%;
+	background-color: #fff;
+	padding: 12px;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
