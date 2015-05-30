@@ -5,7 +5,6 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		<img id = "background" src="assets/images/background.png">
 		<div id="header">
 			<img id="header-img" class="wrapper" src="assets/images/logo.jpg">
 			<div id="header-words" class="wrapper">
@@ -17,14 +16,24 @@
 					<!--homepage with revolving images and intro statement-->
 				<a class="navbar-item" id="about" href="about.html">about us</a>
 					<!--mission statement, exec board-->
-				<a class="navbar-item" id="calendar" href="calendar.html">calendar</a>
-					<!--google calender-->
-				<a class="navbar-item" id="membership" href="membership.html">membership</a>
+				<a class="navbar-item" id="calendar" href="calendar.html">events</a>
 					<!--who to contact, why join?-->
 				<a class="navbar-item" id="exec" href="contact.html">exec board</a>
 					<!--Contacts and faq-->
 			</div>
 		</div>
-		<iframe id="cal" src="https://www.google.com/calendar/embed?src=moragawomensociety%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="720" height="540" frameborder="0" scrolling="no"></iframe>
+		<div id="prefix-wrapper">
+			<div id="cal-prefix">
+				<p>Click on events on the calender below for more details. You are welcomed and encouraged to attend and participate in any of our events. We hope to  see you there!</p>
+			</div>
+		</div>
+		<div id="cal-wrapper">
+			<h2>Calendar</h2>
+			<iframe id="cal" src="https://www.google.com/calendar/embed?src=moragawomensociety%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="720" height="540" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<div id="pdf-wrapper">
+			<h2>PDF of Minutes</h2>
+			<p>(comming soon)</p>
+		</div>
 	</body>
 </html>
