@@ -5,13 +5,10 @@ slideimages[1] = new Image()
 slideimages[1].src = "assets/images/main-img2.jpg"
 slideimages[2] = new Image()
 slideimages[2].src = "assets/images/main-img3.jpeg"
-slideimages[3] = new Image()
-slideimages[3].src = "assets/images/main-img4.jpg"
 var descript = new Array()
-descript[0] = "Image 1"
-descript[1] = "Image 2"
-descript[2] = "Image 3"
-descript[3] = "Image 4"
+descript[0] = "" //"Image 1" will add image descriptions when images are finalized
+descript[1] = "" //"Image 2"
+descript[2] = "" //"Image 3"
 
 
 var step = 0
