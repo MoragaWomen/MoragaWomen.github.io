@@ -9,9 +9,10 @@ body {
 .exec {
 	text-align: center;
 	display: inline-block;
-	padding: 21.5px;
+	padding: 1.5%;
 	padding-top: 180px;
 	color: black;
+	max-width: 16.5%;
 }
 
 #background {
@@ -53,6 +54,7 @@ body {
 	position: relative;
 	top: 63px;
 	float: right;
+	z-index: 10;
 }
 
 #header-words {
@@ -260,11 +262,16 @@ body {
 	height: 150px;
 }
 
+#blue {
+	color: blue;
+}
+
 .about {
 	padding-bottom: 30px;
 	text-align: center;
 	font-size: 3em;
 	color: black;
+	line-height: 1em;
 }
 
 .round-img {
