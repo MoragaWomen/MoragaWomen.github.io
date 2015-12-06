@@ -62,6 +62,10 @@ body {
 	bottom: 18px;
 }
 
+#hide {
+	visibility: hidden;
+}
+
 .wrapper {
 	display: inline-block;
 }
