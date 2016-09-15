@@ -5,10 +5,16 @@ slideimages[1] = new Image()
 slideimages[1].src = "assets/images/main-img3.jpeg"
 slideimages[2] = new Image()
 slideimages[2].src = "assets/images/main-img4.jpg"
+slideimages[3] = new Image()
+slideimages[3].src = "assets/images/main-img5.PNG"
+slideimages[4] = new Image()
+slideimages[4].src = "assets/images/main-img6.jpg"
 var descript = new Array()
 descript[0] = "MWA Luncheon"
 descript[1] = "Annual Pear Festival"
 descript[2] = "Hacienda Christmas Tree Lighting"
+descript[3] = "Fashion Show"
+descript[4] = "MWA members"
 
 
 var step = 0
@@ -21,10 +27,10 @@ function slideit(){
  	}
 	document.getElementById('slide').src = slideimages[step].src
 	// document.getElementById('description').innerHTML = descript[step];
-	if (step<3){
+	if (step<5){
  		step++
  	}
- 	if (step>= 3) {
+ 	if (step>= 5) {
  		step=0
  	}
  	setTimeout("slideit()",2500)
